@@ -30,4 +30,4 @@
 ## 🚀 How to Run Locally
 1. Clone the repo: `git clone https://github.com/fohh29/AudibleInsights-Recommender.git`
 2. Install requirements: `pip install -r requirements.txt`
-3. Run the app: `streamlit run app.py`
+3. Run the app: `python3 -m streamlit run app.py `
