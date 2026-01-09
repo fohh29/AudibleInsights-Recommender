@@ -66,7 +66,7 @@ if scenario == "Science Fiction Starter":
     st.table(sci_fi.sort_values(by='Rating', ascending=False)[['Book Name', 'Author', 'Rating']].head(5))
 
 elif scenario == "Hidden Gems":
-    gems = df[(df['Rating'] >= 4.5) & (df['Number_of_Reviews'] < 50) & (df['Number_of_Reviews'] > 5)]
+    gems = df[(df['Rating'] >= 4.5) & (df['Number of Reviews'] < 50) & (df['Number of Reviews'] > 5)]
     st.table(gems[['Book Name', 'Author', 'Rating']].head(5))
 
 elif scenario == "Top Thrillers":
